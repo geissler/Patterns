@@ -1,0 +1,5 @@
+## Mediator pattern ##
+
+pro:
+
+contra:
