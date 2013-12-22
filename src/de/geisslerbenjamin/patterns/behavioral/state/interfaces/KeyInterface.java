@@ -1,4 +1,4 @@
-package de.geisslerbenjamin.patterns.statepattern.interfaces;
+package de.geisslerbenjamin.patterns.behavioral.state.interfaces;
 
 /**
  * Simple key with a number.

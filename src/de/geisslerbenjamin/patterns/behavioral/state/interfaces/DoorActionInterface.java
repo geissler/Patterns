@@ -1,16 +1,23 @@
-package de.geisslerbenjamin.patterns.statepattern.interfaces;
+package de.geisslerbenjamin.patterns.behavioral.state.interfaces;
 
 /**
- * Interface defining the different actions of a door.
+ * Defines the same methods as the DoorInterface, but with boolean return types for all methods.
  * Created by Benjamin on 06.12.13.
  */
-public interface DoorInterface {
+public interface DoorActionInterface {
     /**
-     * Open a door if the door is not locked or already open.
+     * Retrieve the actual state object of the door.
      *
      * @return DoorInterface
      */
-    public DoorInterface open();
+    public DoorInterface getState();
+
+    /**
+     * Open a door if the door is not locked or already open.
+     *
+     * @return boolean
+     */
+    public boolean open();
 
     /**
      * Check if the door is open or not.
@@ -22,9 +29,9 @@ public interface DoorInterface {
     /**
      * Close a open door.
      *
-     * @return DoorInterface
+     * @return boolean
      */
-    public DoorInterface close();
+    public boolean close();
 
     /**
      * Check if the door is closed.
@@ -36,10 +43,10 @@ public interface DoorInterface {
     /**
      * Lock the door if the door is closed and the key has the correct number.
      *
-     * @param key key to lock the door
-     * @return DoorInterface
+     * @param key to lock the door
+     * @return boolean
      */
-    public DoorInterface lock(KeyInterface key);
+    public boolean lock(KeyInterface key);
 
     /**
      * Check if the door is locked.
@@ -52,7 +59,7 @@ public interface DoorInterface {
      * Unlock the door if the door is locked and the key has the correct number.
      *
      * @param key key to unlock the door
-     * @return DoorInterface
+     * @return boolean
      */
-    public DoorInterface unlock(KeyInterface key);
+    public boolean unlock(KeyInterface key);
 }

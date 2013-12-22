@@ -1,9 +1,9 @@
-package de.geisslerbenjamin.patterns.statepattern.tests;
+package de.geisslerbenjamin.patterns.behavioral.state.tests;
 
-import de.geisslerbenjamin.patterns.statepattern.ClosedDoor;
-import de.geisslerbenjamin.patterns.statepattern.Key;
-import de.geisslerbenjamin.patterns.statepattern.OpenDoor;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.DoorInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.ClosedDoor;
+import de.geisslerbenjamin.patterns.behavioral.state.Key;
+import de.geisslerbenjamin.patterns.behavioral.state.OpenDoor;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.DoorInterface;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

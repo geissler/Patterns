@@ -1,6 +1,6 @@
-package de.geisslerbenjamin.patterns.statepattern;
+package de.geisslerbenjamin.patterns.behavioral.state;
 
-import de.geisslerbenjamin.patterns.statepattern.interfaces.KeyInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.KeyInterface;
 
 /**
  * Simple door key class.

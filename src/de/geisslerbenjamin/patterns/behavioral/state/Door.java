@@ -1,8 +1,8 @@
-package de.geisslerbenjamin.patterns.statepattern;
+package de.geisslerbenjamin.patterns.behavioral.state;
 
-import de.geisslerbenjamin.patterns.statepattern.interfaces.DoorActionInterface;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.DoorInterface;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.KeyInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.DoorActionInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.DoorInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.KeyInterface;
 
 /**
  * Class which handel's the different states of the door by wrapping the methods.

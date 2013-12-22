@@ -1,8 +1,8 @@
-package de.geisslerbenjamin.patterns.statepattern.tests;
+package de.geisslerbenjamin.patterns.behavioral.state.tests;
 
-import de.geisslerbenjamin.patterns.statepattern.*;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.DoorActionInterface;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.KeyInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.*;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.DoorActionInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.KeyInterface;
 import org.junit.Assert;
 import org.junit.Test;
 

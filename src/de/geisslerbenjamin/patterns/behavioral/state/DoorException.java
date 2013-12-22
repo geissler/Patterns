@@ -1,4 +1,4 @@
-package de.geisslerbenjamin.patterns.statepattern;
+package de.geisslerbenjamin.patterns.behavioral.state;
 
 /**
  * Simple Exception.

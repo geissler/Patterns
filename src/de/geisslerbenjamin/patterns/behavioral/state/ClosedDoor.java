@@ -1,7 +1,7 @@
-package de.geisslerbenjamin.patterns.statepattern;
+package de.geisslerbenjamin.patterns.behavioral.state;
 
-import de.geisslerbenjamin.patterns.statepattern.interfaces.DoorInterface;
-import de.geisslerbenjamin.patterns.statepattern.interfaces.KeyInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.DoorInterface;
+import de.geisslerbenjamin.patterns.behavioral.state.interfaces.KeyInterface;
 
 /**
  * Closed door, which can be opened and locked with the right key.
