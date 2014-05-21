@@ -29,10 +29,10 @@ public class ChainOfResponsibilityTest {
 
     @Test
     public void addTest() throws Exception {
-        Request request = new Request("4+5");
+        Request request = new Request("4+5+1+3+10");
 
         ResultInterface result = this.chain.handleRequest(request);
-        Assert.assertEquals(9, result.getResult());
+        Assert.assertEquals(23, result.getResult());
     }
 
     @Test

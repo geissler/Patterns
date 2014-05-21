@@ -26,11 +26,8 @@ public abstract class AbstractSubject implements SubjectInterface {
 
     @Override
     public SubjectInterface removeObserver(ObserverInterface observer) {
-        for (ObserverInterface entry : this.observers) {
-            if (entry.getClass().equals(observer.getClass())) {
-                this.observers.remove(entry);
-                break;
-            }
+        if (this.observers.contains(observer)) {
+            this.observers.remove(observer);
         }
 
         return this;

@@ -28,6 +28,6 @@ abstract public class AbstractHandler implements HandlerInterface {
             return this.successor.handleRequest(request);
         }
 
-        throw new Exception("Request could not be handle!");
+        throw new Exception("Request could not be handled");
     }
 }

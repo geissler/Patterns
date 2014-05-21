@@ -47,6 +47,5 @@ public class StrategyTest {
                 {75, (float) 80.25, new ReducedGermanTaxes()},
                 {75, (float) 90.0, new NormalAustrianTaxes()},
         });
-
     }
 }
